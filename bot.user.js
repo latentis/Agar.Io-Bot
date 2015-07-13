@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name        RednelssBot
-// @namespace   RednelssBot
+// @name        Latentis
+// @namespace   Latentis
 // @include     http://agar.io/
-// @version     2.25
+// @version     1.4
 // @grant       none
-// @author      youtube.com/RednelssPlay
+// @author      vk.com/latentis
 // ==/UserScript==
 
 
@@ -37,17 +37,17 @@ $.get('https://raw.githubusercontent.com/rednelss/Agar.io-bot/master/bot.user.js
 
     if(latestVersion > myVersion)
     {
-        update("rednessBot", "bot.user.js", "https://github.com/rednelss/Agar.io-bot/blob/master/bot.user.js/");
+        update("latentis", "bot.user.js", "https://github.com/rednelss/Agar.io-bot/blob/master/bot.user.js/");
     }
     console.log('Current bot.user.js Version: ' + myVersion + " on Github: " + latestVersion);
 });
 
 
 
-console.log("Running rednelss Bot!");
+console.log("Running Latentis Bot!");
 (function(f, g) {
     var splitDistance = 710;
-    console.log("rednelss Bot!");
+    console.log("Latentis Bot!");
 
     if (f.botList == null) {
         f.botList = [];
@@ -58,7 +58,7 @@ console.log("Running rednelss Bot!");
     f.botList.push(["rednelssBot " + GM_info.script.version, findDestination]);
 
     var bList = g('#bList');
-    g('<option />', {value: (f.botList.length - 1), text: "rednelssBot"}).appendTo(bList);
+    g('<option />', {value: (f.botList.length - 1), text: "Latentisbot"}).appendTo(bList);
 
     //Given an angle value that was gotten from valueAndleBased(),
     //returns a new value that scales it appropriately.
