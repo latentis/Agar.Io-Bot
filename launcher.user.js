@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name        RednelssLauncher
-// @namespace   RednelssLauncher
+// @name        Latentis
+// @namespace   Latentis
 // @include     http://agar.io/
-// @version     2.25
+// @version     1.4
 // @grant       none
-// @author      youtube.com/RednelssPlay
+// @author      vk.com/latentis
 // ==/UserScript==
 
 Number.prototype.mod = function(n) {
