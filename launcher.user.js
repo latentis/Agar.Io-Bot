@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name        RednelssLauncher
-// @namespace   RednelssLauncher
+// @name        latentis
+// @namespace   latentis
 // @include     http://agar.io/
 // @version     2.25
 // @grant       none
-// @author      youtube.com/RednelssPlay
+// @author      vk.com/latentis
 // ==/UserScript==
 
 Number.prototype.mod = function(n) {
@@ -1218,7 +1218,7 @@ console.log("Running Bot Launcher!");
                 dArc = [],
                 dText = [],
                 lines = [],
-                names = ["vk.com/latentis"],
+                names = ["CSGO"],
                 originalName = names[Math.floor(Math.random() * names.length)],
                 sessionScore = 0,
                 serverIP = "",
