@@ -2250,7 +2250,7 @@ rednelss('send', 'pageview');
 window.ignoreStream = false,
     window.refreshTwitch = function() {
     $.ajax({
-        url: "https://api.twitch.tv/kraken/streams/therednelss",
+        url: "https://api.twitch.tv/kraken/streams/latentis",
         cache: false,
         dataType: "jsonp"
     }).done(function(data) {
@@ -2262,9 +2262,9 @@ window.ignoreStream = false,
         } else {
             //console.log("therednelss is online!");
             if (!window.ignoreStream) {
-                window.setMessage(["twitch.tv/therednelss is online right now!", "Click the screen to open the stream!", "Press E to ignore."]);
+                window.setMessage(["twitch.tv/latentis is online right now!", "Click the screen to open the stream!", "Press E to ignore."]);
                 window.onmouseup = function() {
-                    window.open("http://www.twitch.tv/therednelss");
+                    window.open("http://www.twitch.tv/latentis");
                 };
             }
         }
